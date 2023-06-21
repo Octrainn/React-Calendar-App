@@ -1,10 +1,11 @@
 {
-  "hompage": "http://Octrainn.github.io/React-Calendar-App",
+  "homepage": "http://Octrainn.github.io/React-Calendar-App",
   "name": "calendar-react-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
