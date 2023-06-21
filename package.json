@@ -1,10 +1,14 @@
 {
+  "homepage": "http://Octrainn.github.io/React-Calendar-App",
   "name": "calendar-react-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -12,9 +16,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@ionic/react": "^7.0.14",
+    "gh-pages": "^5.0.0",
     "ionicons": "^7.1.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "s": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
